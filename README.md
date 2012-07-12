@@ -1,5 +1,6 @@
 ##Videostation##
 
+ACHTUNG: Dieses Packet ist (noch) nicht kompatibel zur Video Station von Synology. Heisst, falls Video Station von Synology installiert ist, kann dieses Packet nicht installiert werden, ohne dass dabei automatisch die Video Station von Synology entfernt wird. Umgekehrt genauso.
 Das ist die deutsche Version des Videostation-Apps für die Synology Diskstation(bzw. DSM).
 Die originale Version ist hier zu finden: [Videostation](https://github.com/teebo/VideoStation). Ist jedoch auf Französisch.
 
