@@ -155,7 +155,6 @@ else {
 	$recherche = $movies->movieSearch(keywordsAdapt($link,$DELETED_WORDS,1));
 	if (empty($recherche['code'])){ //si aucun film trouve; added '', for id support
 		$sql = "INSERT INTO movies VALUES(
-		'',
 		'0',
 		\"".addslashes($link)."\",
 		\"".keywordsAdapt(addslashes($link), $DELETED_WORDS)."\",
